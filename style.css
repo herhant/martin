@@ -10,16 +10,18 @@
 }
 
 body {
-    background-color: #4A6E2A;
+    background-color: #FBF7D7; 
 }
 
 .navbar {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    background-color:#6A4A2A;
+    background-color: #374C1E;
     height: 51px;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .menu {
@@ -35,4 +37,24 @@ body {
 
 .menu a:hover {
     color: #000;
+}
+
+.sec {
+    height: 300px;
+}
+
+#menu1 {
+    background-color: #C1F98D;
+}
+
+#menu2 {
+    background-color: #935530;
+}
+
+#menu3 {
+    background-color: #EF9B42;
+}
+
+#menu4 {
+    background-color: #AB9978;
 }
